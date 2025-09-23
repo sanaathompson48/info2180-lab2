@@ -1,4 +1,4 @@
 # \# INFO2180 Lab 2
 
-# This is Lab 2 for Sanaa Thompson
+This is Lab 2 for Sanaa Thompson
 
