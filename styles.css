@@ -1,0 +1,26 @@
+.profile-pic {
+	width: 150px;
+	height: 150 px;
+	border-radius: 50%;
+	display: block;
+	margin: 20px auto;
+	object fit: cover;
+}
+
+.left-image {
+	float: left;
+	margin: 0 150px 10px 0 px;
+	width: 160px;
+	height: auto;
+	border-radius: 10px
+}
+
+.right-image {
+	float: right;
+	margin: 0 0 10px 15px;
+	width: 160px;
+	height: auto;
+	border-radius: 10px
+}
+
+	
