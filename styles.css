@@ -8,15 +8,14 @@ body {
 
 .container {
 	display: grid;
-	grid-template-columns: 3fr 2fr; 
+	grid-template-columns: 3.5fr 1.5fr; 
 	grid-template-rows: auto 1fr auto;
-	column-gap: 50px; 
+	column-gap: 35px; 
 	row-gap: 24px;
 	box-sizing: border-box;
-
-	max-width: 960px;
+	max-width: 1100px;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 10px;
 }
 
 .site-header {
@@ -87,14 +86,14 @@ main p {
 .left-img {
 	float: left;
 	width: 160px;
-	height: auto;
+	height: 180px ;
 	margin: 4px 24px 12px 0;
 }
 
 .right-img {
 	float: right;
-	width: 160px;
-	height: auto;
+	width: 165px;
+	height: 175px;
 	margin: 4px 0 12px 24px;
 }
 
@@ -116,6 +115,7 @@ aside h3 {
 	margin: 0 0 8px;
 }
 
+
 hr {
 	border: none;
 	border-top: 1px solid #CBD5E0;
@@ -133,6 +133,10 @@ hr {
 
 .about h3 { 
 	color: #000000; 
+}
+
+.archives {
+	margin-top: 60px;
 }
 
 
@@ -166,8 +170,7 @@ aside section {
 	font-size: 12px;
 	grid-column: 1 / -1;
 	grid-row: 3;
-	clear: both;
 	width: 100%
-	box-sizing: border-box;
 	margin top: 40px;
+	clear: both;
 }
